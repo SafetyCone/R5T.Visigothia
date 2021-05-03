@@ -1,0 +1,11 @@
+R5T.Visigothia.Base - Base service definitions library for user profile directory path related services.
+
+Service definition choices:
+
+* Async.
+* Parameterless provider GetX() methods.
+* Stringly-typed paths.
+
+
+Goals
+
