@@ -1,0 +1,5 @@
+R5T.Visigothia.Standard - Standard implementation aggregation library for user profile directory path related services.
+
+
+Goals
+

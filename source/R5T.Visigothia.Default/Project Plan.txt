@@ -1,0 +1,9 @@
+R5T.Visigothia.Default - Default service implementations library for user profile directory path related services.
+
+Service implementation choices:
+
+* Avoid caching GetX() method results.
+
+
+Goals
+
