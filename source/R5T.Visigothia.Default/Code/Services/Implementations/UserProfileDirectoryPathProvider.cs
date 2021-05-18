@@ -8,7 +8,9 @@ namespace R5T.Visigothia.Default
     {
         public Task<string> GetUserProfileDirectoryPath()
         {
-            throw new NotImplementedException();
+            var userProfileDirectoryPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+
+            return Task.FromResult(userProfileDirectoryPath);
         }
     }
 }
