@@ -9,7 +9,7 @@ namespace R5T.Visigothia.Default
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="UserProfileDirectoryPathProvider"/> implementation of <see cref="IUserProfileDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="UserProfileDirectoryPathProvider"/> implementation of <see cref="IUserProfileDirectoryPathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IUserProfileDirectoryPathProvider> AddUserProfileDirectoryPathProviderAction(this IServiceAction _)
         {
