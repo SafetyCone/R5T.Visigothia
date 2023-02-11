@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 
 using R5T.Dacia;
 
+using R5T.Visigothia.Default;
+
 
 namespace R5T.Visigothia.Standard
 {
